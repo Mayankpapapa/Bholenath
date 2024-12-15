@@ -208,7 +208,8 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/RAGNAROKCRACKER"
+    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY HELLA.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/
+CRACKER"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /attack1 command
@@ -247,7 +248,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./cb {target} {port} {time}"
                 subprocess.run(full_command, shell=True)
-                response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/RAGNAROKCRACKER"
+                response = f"TATTA KHA LE 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/RAGNAROKCRACKER"
         else:
             response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/RAGNAROKCRACKER"  # Updated command syntax
     else:
